@@ -4,8 +4,9 @@
 
 ```
 terraform init -plugin-dir ./providers
-terraform plan -var-file ./inputs/default.tfvars
-
+terraform plan
+terraform apply
+terraform destroy
 ```
 
 ## run mock server
